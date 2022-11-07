@@ -32,17 +32,6 @@ int main()
     t2.loadFromFile("images/gems!.png");
     t3.loadFromFile("images/board.png");
 
-//    sf::Font font;
-//    if (!font.loadFromFile("fonts/Branda-yolq.ttf"))
-//    {std::cout << "No such font found!";}
-//
-//    sf::Text text;
-//    text.setFont(font);
-//    text.setCharacterSize(26);
-//    text.setFillColor(sf::Color::Blue);
-//    text.setPosition(900.f, 800.f);
-
-
     sf::Sprite background(t1), gems(t2), board(t3);
     t1.setSmooth(true); t2.setSmooth(true);
 
@@ -99,13 +88,11 @@ int main()
                     if (grid[i][j].kind==grid[i-1][j].kind)
                         for(int n=-1;n<=1;n++)
                             grid[i+n][j].match++;
-//                            points += 100;
 
                 if (grid[i][j].kind==grid[i][j+1].kind)
                     if (grid[i][j].kind==grid[i][j-1].kind)
                         for(int n=-1;n<=1;n++)
                             grid[i][j+n].match++;
-//                            points += 100;
             }
 
 
@@ -166,9 +153,6 @@ int main()
         /// draw
         game.draw(background);
         game.draw(board);
-//        std::string Points = std::to_string(points);
-//        text.setString(Points);
-//        game.draw(text);
         board.setColor(sf::Color(255, 255, 255, 128));
         board.setPosition(48, 24);
         board.setScale(3.4f, 3.4f);
