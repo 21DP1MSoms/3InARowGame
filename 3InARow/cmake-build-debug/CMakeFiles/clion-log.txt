@@ -1,0 +1,5 @@
+/mnt/f70619d6-cfbc-450b-ad3d-728c52d9572b/programēšana/kompilātori/clion-2022.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/mnt/f70619d6-cfbc-450b-ad3d-728c52d9572b/programēšana/kompilātori/clion-2022.2.3/bin/ninja/linux/ninja -G Ninja -S /home/camr1ss/CLionProjects/3InARow -B /home/camr1ss/CLionProjects/3InARow/cmake-build-debug
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/camr1ss/CLionProjects/3InARow/cmake-build-debug

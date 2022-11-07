@@ -1,0 +1,3 @@
+/home/camr1ss/CLionProjects/3InARow/cmake-build-debug/CMakeFiles/3InARow.dir
+/home/camr1ss/CLionProjects/3InARow/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/camr1ss/CLionProjects/3InARow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
